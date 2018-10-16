@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome">
+    <style>
+		body{background-color:#b3d1ff;
+			 background-gardient:20px;
+			 margin:0;
+   			 padding:0;
+    		 position:relative;
+			 }
+		ul {
+		     list-style-type: none;
+ 		     margin: 0;
+  		     padding: 0;
+ 		     overflow: hidden;
+ 		     background-color:white;
+ 		     width:100%;
+			}
+
+		li {
+		     float: right;
+				}
+
+		li a {
+		    display: inline-block;
+		    color:black;
+ 		    text-align: center;
+ 		    padding: 14px 16px;
+ 		    text-decoration: none;
+}
+		li a:hover{background-color:#99ff99}
+
+		.div1{ margin: auto;
+		       width: 50%;
+		       text-align:center;
+ 			   font-size:50px;
+              font-style:italic;
+              position: absolute;
+              position: absolute;
+              top: 150px;
+              right: 16px;
+          }
+      fieldset{width:36%;
+             float:left;
+             overflow:hidden;
+             padding:30px 30px;
+             margin:16px;
+             border-radius:10px;
+             box-shadow:5px 10px 12px;
+           }
+         input{padding:8px;
+         	   border-radius:10px;
+               margin:8px;
+               width:90%;
+         	   }
+
+span{
+font-size:22px;
+text-align:center;
+overflow:hidden;
+
+padding:15px 100px;
+margin:0;
+top:0;
+}
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="#"><bold>Home<me</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">News</a></li>
+  <li><a href="#">Contacts</a></li>
+</ul>
+
+
+<fieldset >
+<form>
+  <span >SignIn</span> 
+  <br>
+  <input type="text" name="username" value="user name"><br>
+  <br>
+  <input type="password" name="psw" value="password"><br>
+  <input type="submit" value="Submit" style="padding:5px;width:100%">
+</form>
+<div><a href="#"  style="color:black;">forget passeword<a></div>
+<div><a href="#" style="color:black;">Don't have an account</a></div>
+</fieldset>
+<div class="div1">Don't listen to what they see ..Go & See
+</div>
+
+</body>
+</html>
