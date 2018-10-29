@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="background-color:LightGray;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head style="border:1px solid black;">
+<title>Sign in page</title>
+</head >
+<body>
+<h1 style="text-align:center; box-Sizing:border-box;">Sign up</h1>
+<form style="width:320px;text-align:center; border: 3px solid black; transform:translate(50%,5%);background-color:white">
+
+  <input type="text" name="firstname" placeholder="First name" maxlength="10" autocomplete="on" style ="width:150px; border:none; border-bottom:1px solid black;" >
+  
+  <input type="text" name="last name" placeholder="last name" maxlength="10" autocomplete="on" style ="width:150px; border:none; border-bottom:1px solid black;">
+  <br>
+  <br>
+  <input type="email" name="email" placeholder="email                                 @yahoo.com" autocomplete="on" style ="width:306px ; border:none; border-bottom:1px solid black;" >
+  <br> 
+  <br>
+  <input type="password" name="Passowd" placeholder="password" style ="width:306px ; border:none; border-bottom:1px solid black;" >
+  <br>
+  <br>
+Your Birthday:  <input type="date" name="date" style=" width:205px;border:none; border-bottom:1px solid black;"><br><br>
+  Gender: <br>
+  <input type="radio" name="gender" value="male" checked > Male
+  <input type="radio" name="gender" value="female"> Female<br>
+ <br>
+   <select name="Country" size="1" style ="width:100px" value="+1">
+    <option value="Egypt">Egypt (+20)</option>
+    <option value="Kuwait">Kuwait (+965)</option>
+    <option value="Saudi Arabia">Saudi Arabia (+966)</option>
+    <option value="Germany">Germany (+49)</option>
+  </select>
+  <input type="tel" name="usrtel" placeholder="Mobile Phone Number" style="width:200px; border:none; border-bottom:1px solid black;">
+  <br><br>
+  
+  <input type="url" name="homepage" placeholder="Your facebook page" style="width:306px; border:none; border-bottom:1px solid black;" autocomplete="on">
+  <br><br>
+  About you:
+  <br>
+   <input type="text" name="message" style ="width:200px ; height:100px;" >
+   <br><br>
+  <input type="submit" value="Submit" formaction="/http:google.com" onClick="alert('Hello every body')">
+  <input type="reset">
+  
+</form>
+</body>
+</html>
