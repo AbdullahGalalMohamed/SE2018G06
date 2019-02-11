@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Content</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-brand{
+        font-size:1.8em;
+    }
+    #topContainer{
+        background-image: url("background.jpg"); 
+        width:100%;
+        background-size: cover;
+
+    }
+    #topRow{
+        margin-top:90px;
+        text-align: center;
+        color:white;
+    }
+    #topRow h1{
+        font-size: 280%;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .marginTop{
+        margin-top:30px;
+    }
+    .center{
+        text-align: center;
+    }
+    .title{
+        margin-top:100px;
+        font-size:300%;
+    }
+    #footer{
+       
+        background-color: rgba(109, 84, 219, 0.87);
+        padding-top: 70px;
+        width:100%;
+    }
+    .marginBottom{
+        margin-bottom:30px;
+    }
+    .appStoreImage{
+        width:220px;
+    }
+    .footer
+        {
+            background:#333;
+            color:#FFF;
+            text-align:center;
+            padding:10px 0
+        }
+
+</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+            <div class="navbar-header">
+
+                <a href="" class="navbar-brand">Study Abroad</a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#topContainer">Scholarships</a></li>
+                    <li><a href="">Accommodation</a></li>
+                    <li><a href="">Papers</a></li>
+                    <li><a href="">Restaurants</a></li>
+                    <li><a href="">Entertainment</a></li>
+                    <li><a href="">Tips</a></li>
+                    <li><a href="">After Graduation</a></li>
+                </ul>
+
+                <form action="index.html" class="navbar-form navbar-right form-inline">
+                    
+                    <button type="submit" class="btn btn-success">Log out</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container contentContainer" id="topContainer">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3" id="topRow">
+                <h1>We always here for you</h1>
+               
+                <p>If you are new to this site you can Sign Up.</p>
+                <p class="bold">Intersted? Join our mailing list!</p>
+
+                <form class="marginTop">
+                    <div class="input-group">
+                        <span class="input-group-addon">@</span>
+                        <input type="email" class="form-control" placeholder="Your email">
+
+                    </div>
+                    <input type="submit" class="btn btn-success btn-lg marginTop" />
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container contentContainer" id="about">
+        <div class="row center ">
+            <h1 class="center title">Why this website for you</h1>
+            
+        </div>
+
+        <div class="row marginBottom">
+            <div class="col-md-4 marginTop">
+                <h2><span class="glyphicon glyphicon-music "></span> Header</h2>
+                <p>A brief description o one of the best features o your app. Maybe
+                    a little more text.A brief description o one of the best features o your app. Maybe
+                    a little more text.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+            </div>
+
+            <div class="col-md-4 marginTop">
+                <h2><span class="glyphicon glyphicon-off "></span> Header</h2>
+                <p>A brief description o one of the best features o your app. Maybe
+                    a little more text.A brief description o one of the best features o your app. Maybe
+                    a little more text.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+            </div>
+
+            <div class="col-md-4 marginTop ">
+                <h2><span class="glyphicon glyphicon-pencil "></span> Header</h2>
+                <p>A brief description o one of the best features o your app. Maybe
+                    a little more text.A brief description o one of the best features o your app. Maybe
+                    a little more text.</p>
+
+                <button class="btn btn-success marginTop">Sign Up!</button>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div class="container contentContainer" id="footer">
+           
+
+    </div>
+
+    <div class="footer">
+            Copyright &copy; 2018 All Right Reserved To StudyAbroad &reg; Team
+     </div>
+
+
+    
+
+    <script>
+        $(".contentContainer").css("min-height", $(window).height());
+
+    </script>
+
+
+</body>
+
+</html>
