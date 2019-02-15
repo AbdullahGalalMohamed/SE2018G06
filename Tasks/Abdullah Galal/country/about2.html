@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>   
+		<style>
+
+
+body{
+	margin-top:1px;
+	margin-left:-30px;
+	margin-right:-30px;
+	font-size:20px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	position:relative;
+
+}
+
+.back{
+	position:absolute;
+	z-index:-1;
+	top:0;
+	}
+
+	
+.cont{
+height:200px;
+background-color:white;
+height:400px;
+margin:30px;
+left:50px;
+
+}
+.row1{
+margin-top:30%;
+}
+.but{
+
+	left:15%;
+	bottom:3%;
+	height:12%;
+	width:70%;
+	position:absolute;
+  background: #f4511e;
+	
+}
+
+
+
+
+
+div.gallery {
+  float: left;
+  width: 100%;
+  height:100%;
+  background: #f6f6f6;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 45%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+
+		</style>
+    </head>
+<body class="ids">
+    <script>
+        $('#myCarousel').on('slide.bs.carousel', function () {
+         // do something…
+       })</script> 
+        			<!--start navbar-->
+			<nav class="navbar navbar-default container transbox">
+			
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<span class="glyphicon glyphicon-plane btn-lg navbar-brand" aria-hidden="true"></span>
+					<a class="navbar-brand" href="#">Study Abroad</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/main">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="/aboutus">About Us</a></li>
+						<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    Our services 
+    <span class="caret"></span>
+  </a>
+							<ul class="dropdown-menu">
+								<li><a href="#" >Scholarships</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Universities</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/countries">Countries</a></li>
+
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<button type="submit" class="btn btn-default">Logout</button>
+					</form>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+			<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+	</button>
+		</form>
+				</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+			<!--end navbar-->
+
+
+
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'article-ckeditor' );
+        </script>
+<div class="row">
+<img src="country.jpeg" alt="country" class="back">
+
+</div>
+<div class="container-fluid" >
+
+<div class="row row1">
+    <div class="col-lg-3 cont ">
+      <div class="gallery">
+        <a target="_blank" href="canada.jpg">
+          <img src="canada.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Canada has ranked as one of the top ten places to live in the world for over twenty years, and the education system in Canada is among the best.
+
+        </div>
+      </div>
+      
+        <button class="btn btn-primary but" >View Universities</button>
+    </div>
+    <div class="col-lg-3 cont ">
+      <div class="gallery">
+        <a target="_blank" href="UK.jpg">
+          <img src="UK.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">making studying in the UK the number two choice for international students in the world, second only to the USA. For students worldwide that would like an English-language education
+        </div>
+      </div>
+      
+        <button class="btn btn-primary but" >View Universities</button>
+    </div>
+
+    <div class="col-lg-3 cont ">
+      <div class="gallery">
+        <a target="_blank" href="aus.jpg">
+          <img src="aus.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc"> if you are interested in studying in Australia – you are in the right place! International Student’s Study in Australia Center is designed to help you succeed.
+
+        </div>
+      </div>
+      
+        <button class="btn btn-primary but" >View Universities</button>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 cont ">
+    <div class="gallery">
+      <a target="_blank" href="usa.jpg">
+        <img src="usa.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">The USA has the world’s largest international student population, with more than 1,000,000 students choosing to broaden their education and life experience in the United States.
+      </div>
+    </div>
+    
+      <button class="btn btn-primary but" >View Universities</button>
+  </div>
+
+  <div class="col-lg-3 cont ">
+    <div class="gallery">
+      <a target="_blank" href="germany.jpg">
+        <img src="germany.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc" style="font-size:13px">The International Student’s Guide To Free-Tuition Education In Germany
+        Benefit from a high quality educational system to help you advance in your career
+        There are hundreds of universities in Germany that have free or very low-fee tuition programs available for international students.
+        
+      </div>
+    </div>
+      <button class="btn btn-primary but" >View Universities</button>
+  </div>
+
+  <div class="col-lg-3 cont ">
+    <div class="gallery">
+      <a target="_blank" href="turkia.jpg">
+        <img src="turkia.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc" style="font-size:14px">Turkey is now accepting Turkish Government scholarship applications from international students around the world. Turkey scholarships for International Students are now underway and it is certainly a great time for students.  
+      </div>
+    </div>
+      <button class="btn btn-primary but" >View Universities</button>
+  </div>
+       
+</div>
+
+</div>
+</body>
+</html>
