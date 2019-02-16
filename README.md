@@ -1,8 +1,8 @@
 # ** SE2018G06 **
 
 # software project : Studying Abroad page
-Traveling Abroad is an online website offering service to anyone who wants to study abroad, our
-website show the users the papers they need before traveling, the best colleges and the scholarships
+Studying Abroad is an online website offering service to anyone who wants to study abroad, our
+website shows the users the papers they need before traveling, the best colleges and the scholarships
 available, the best hostels they can stay at, the best restaurants in the country, the jobs available and
 the tips they need to know when traveling to any country. 
 
